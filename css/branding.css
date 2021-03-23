@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+header {
+	background: #151515;
+	color: #fff;
+}
+
+#logo {
+	background:url(../images/header_logo.png) no-repeat center;
+}
+
+.header-phone span a {
+	color: #CCC; 
+}
+
+.header-phone .tagline {
+	
+}
+
+.content-phone span {
+	
+}
+
+.content-phone span b {
+	
+}
+
+.header-phone a, .content-phone a {
+	color: #111;
+}
+
+footer {
+	padding:60px 0;
+	
+}
+
+	.footer-phone span {
+		
+	}
+	 
+	.footer-phone span a {
+		color: #666;
+	}
+
+
+#title {
+	color: #dc0013; 
+}
+
+#quick_appSubmit {
+	background: #ae0816;	
+	color: #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
