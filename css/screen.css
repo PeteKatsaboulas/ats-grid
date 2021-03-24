@@ -348,7 +348,7 @@ h1#logo {
 #content{
   position:relative;
 	width:100%;
-	padding:90px 0 0 0;
+	padding:90px 30px 0 30px;
 	overflow:hidden;
 }
 .content_main{
@@ -382,7 +382,7 @@ h1#logo {
   left:50%;
   transform:translateX(-50%) translateY(100px);
   width:100%;
-  max-width:1560px;
+  max-width:1600px;
   height:calc(100vh - 130px);
   padding-bottom:120px;
   background:white;
@@ -446,6 +446,22 @@ h1#logo {
   top:0;
   left:0;
   margin:0 auto;
+}
+
+
+.requirements{
+  padding:45px 0 120px 0;
+}
+.requirements h3{
+  font-size:25px;
+  font-weight:900;
+  line-height:1;
+}
+.requirements li{
+  display:block;
+  font-size:18px;
+  line-height:1.2;
+  margin:5px 0 5px 20px;
 }
 
 
@@ -537,7 +553,6 @@ Hero Area
   width:100%;
   max-width:1600px;
   margin:0 auto 30px auto;
-  padding:0 20px;
   height:calc(100vh - 210px);
 
 }
