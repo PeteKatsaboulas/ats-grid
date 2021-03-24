@@ -563,6 +563,7 @@ Hero Area
   float:left;
   background:#151515;
   border:5px solid white;
+  border-radius:12px;
   overflow:hidden;
 }
 .hero-grid_item-copy{
@@ -594,7 +595,8 @@ Hero Area
   transition: all 1.2s cubic-bezier(0.19, 1, 0.22, 1);
 }
 .hero-grid_item:hover .hero-grid_item-img{
-  transform:scale(1.05);
+  transform:scale(1.03);
+  opacity:0.85;
 }
 .more-btn{
   display:inline-block;

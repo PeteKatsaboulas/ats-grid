@@ -258,6 +258,7 @@ $(function(){
           $('.content_modal').fadeOut('fast');
           container.removeClass('show');
           $('body').removeClass('no-scroll');
+          container.scrollTop(0);
         }
 
     });
