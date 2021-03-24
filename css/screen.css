@@ -141,13 +141,13 @@ p {
   line-height: 1.6;
 }
 
-.column01 ul li {
+ul li {
   position: relative;
   padding: 5px 0;
   list-style: none;
   margin-left: 20px;
 }
-.column01 ul li:before {
+ul li:before {
   content: "—";
   position: absolute;
   left: -20px;
@@ -430,7 +430,8 @@ h1#logo {
 
 }
 .content_modal-section_wrap li{
-  font-size:20px;
+  display:block;
+  font-size:18px;
   line-height:1.2;
   margin:5px 0 5px 20px;
 }
