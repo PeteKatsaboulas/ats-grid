@@ -217,12 +217,48 @@ $(function(){
 
 
 
-    $('.hero-grid_item').on("click", function(){
-
+    $('#lease-flatbed-btn').on("click", function(){
       $('.content_modal').fadeIn('fast', function(){
-        $('.content_modal-section').addClass('show');
+        $('.content_modal-section.lease-flatbed-content').addClass('show');
+        $('body').addClass('no-scroll');
       });
-      
+    });
+
+    $('#company-flatbed-btn').on("click", function(){
+      $('.content_modal').fadeIn('fast', function(){
+        $('.content_modal-section.company-flatbed-content').addClass('show');
+        $('body').addClass('no-scroll');
+      });
+    });
+
+    $('#lease-van-btn').on("click", function(){
+      $('.content_modal').fadeIn('fast', function(){
+        $('.content_modal-section.lease-van-content').addClass('show');
+        $('body').addClass('no-scroll');
+      });
+    });
+    
+    $('#company-van-btn').on("click", function(){
+      $('.content_modal').fadeIn('fast', function(){
+        $('.content_modal-section.company-van-content').addClass('show');
+        $('body').addClass('no-scroll');
+      });
+    });
+
+
+   
+
+
+    $('.content_modal').mouseup(function(e){
+
+        var container = $('.content_modal-section');
+
+        if (!container.is(e.target) && container.has(e.target).length === 0) 
+        {
+          $('.content_modal').fadeOut('fast');
+          container.removeClass('show');
+        }
+
     });
 	
 });

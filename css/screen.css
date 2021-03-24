@@ -37,6 +37,9 @@ html, body {
   color: #363636;
   background: white;
 }
+body.no-scroll{
+  overflow:hidden;
+}
 
 /* ––––––––––––––––––––––––––––––––––––––––––––
 HELPERS
@@ -364,19 +367,26 @@ h1#logo {
   left:0;
   width:100%;
   height:100%;
+  padding:0 30px;
   background:rgba(10,10,10,0.8);
+  overflow:hidden;
 }
 .content_modal.show{
 
 }
 
 .content_modal-section{
-  max-width:1600px;
-  height:calc(100% - 200px);
-  margin:200px auto 0 auto;
+  z-index:2;
+  position:absolute;
+  top:130px;
+  left:50%;
+  transform:translateX(-50%) translateY(100px);
+  width:100%;
+  max-width:1560px;
+  height:calc(100vh - 130px);
+  padding-bottom:120px;
   background:white;
   border-radius:10px 10px 0 0;
-  transform:translateY(250px);
   opacity:0;
   -webkit-transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
   -moz-transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
@@ -384,10 +394,57 @@ h1#logo {
   -o-transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
   transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
   will-change:transform;
+  overflow:scroll;
 }
 .content_modal-section.show{
-  transform:translateY(0);
+  z-index:4;
+  transform:translateX(-50%) translateY(0);
   opacity:1;
+}
+
+
+.content_modal-section_hero .col-1-2{
+  height:100%;
+}
+.content_modal-section_hero h3{
+  font-size:50px;
+  line-height:1;
+  padding-left:60px;
+}
+.content_modal-section_wrap{
+  padding:60px;
+  color:#151515;
+  max-width:960px;
+  margin:0 auto;
+}
+
+.content_modal-section_wrap h4{
+  font-size:25px;
+  font-weight:900;
+  line-height:1;
+
+}
+.content_modal-section_wrap p{
+  font-size:18px;
+  line-height:1.6;
+
+}
+.content_modal-section_wrap li{
+  font-size:20px;
+  line-height:1.2;
+  margin:5px 0 5px 20px;
+}
+.content_modal-section .apply-btn{
+  position:relative;
+  top:0;
+  left:0;
+  margin-left:60px;
+}
+.content_modal-section .apply-btn.centered{
+  position:relative;
+  top:0;
+  left:0;
+  margin:0 auto;
 }
 
 
