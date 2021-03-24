@@ -257,6 +257,7 @@ $(function(){
         {
           $('.content_modal').fadeOut('fast');
           container.removeClass('show');
+          $('body').removeClass('no-scroll');
         }
 
     });
