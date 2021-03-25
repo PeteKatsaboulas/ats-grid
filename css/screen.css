@@ -796,30 +796,16 @@ Footer
 ================================ */
 footer{
 	width:100%;
-  height:200px;
+  padding:60px 0 !important;
   background:#ebebeb;
+  text-align:center;
+}
+footer img{
+  display:inline-block;
 }
 
-.footer-phone { 
-	padding-top: 40px; 
-	float: left; 
-}
 
-	.footer-phone span {
-		display:block;
-		text-transform:uppercase;
-		font-size:20px;
-		padding-left: 35px;
-	}
-	
-	.footer-phone span b { 
-		
-	}
 
-	#footer-logos{
-		float:right;
-		margin-top:50px;
-	}
 	
 	.flogos { 
 		float: left; 
@@ -843,7 +829,7 @@ footer{
 	margin-right:5px;
 }
 
-#footer-logos img{ display:block; }
+
 
 
 /* CHECKBOXES */
