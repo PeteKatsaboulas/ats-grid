@@ -262,6 +262,17 @@ $(function(){
         }
 
     });
+
+    $('.close-modal').on('click', function(){
+
+      var container = $('.content_modal-section');
+
+      $('.content_modal').fadeOut('fast');
+      container.removeClass('show');
+      $('body').removeClass('no-scroll');
+      container.scrollTop(0);
+
+    });
 	
 });
 
