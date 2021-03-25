@@ -625,7 +625,7 @@ Hero Area
 @media(max-width:600px){
   .content-heading{
     position:relative;
-    height:50px;
+    height:40px;
     max-width:960px;
     margin:0 auto;
     background:#222;
@@ -634,7 +634,7 @@ Hero Area
     
   }
   .content-heading h1{
-    bottom:15px;
+    bottom:10px;
     font-size:18px;
     padding:0 10px;
     color:white;
@@ -701,7 +701,7 @@ Hero Area
 @media(max-width:600px){
 
   .hero-grid{
-    height:calc(60vh + 30px);
+    height:calc(58vh + 30px);
     overflow:scroll;
     -webkit-overflow-scrolling: touch;
     white-space: nowrap; 
@@ -717,7 +717,7 @@ Hero Area
   .hero-grid_item{
     position:relative;
     width:260px;
-    height:60vh;
+    height:58vh;
     float:left;
     background:#151515;
     margin-right:5px;
