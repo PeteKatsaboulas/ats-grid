@@ -701,7 +701,7 @@ Hero Area
 @media(max-width:600px){
 
   .hero-grid{
-    height:calc(56vh + 30px);
+    height:calc(60vh + 30px);
     overflow:scroll;
     -webkit-overflow-scrolling: touch;
     white-space: nowrap; 
@@ -717,7 +717,7 @@ Hero Area
   .hero-grid_item{
     position:relative;
     width:260px;
-    height:56vh;
+    height:60vh;
     float:left;
     background:#151515;
     margin-right:5px;
