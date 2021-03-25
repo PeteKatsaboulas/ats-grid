@@ -624,15 +624,23 @@ Hero Area
 
 @media(max-width:600px){
   .content-heading{
-    display:none;
+    position:relative;
+    height:40px;
+    max-width:960px;
+    margin:0 auto;
+    background:#222;
+  }
+  .content-heading h1 span{
+    
   }
   .content-heading h1{
-    bottom:12px;
+    bottom:10px;
     font-size:18px;
+    padding:0 10px;
+    color:white;
   }
   .content-heading h1 strong{
-   font-family:"Lato";
-   font-weight:300;
+   
   }
 }
 
@@ -693,7 +701,7 @@ Hero Area
 @media(max-width:600px){
 
   .hero-grid{
-    height:calc(60vh + 30px);
+    height:calc(56vh + 30px);
     overflow:scroll;
     -webkit-overflow-scrolling: touch;
     white-space: nowrap; 
@@ -709,7 +717,7 @@ Hero Area
   .hero-grid_item{
     position:relative;
     width:260px;
-    height:60vh;
+    height:56vh;
     float:left;
     background:#151515;
     margin-right:5px;
@@ -728,7 +736,7 @@ Hero Area
     bottom:30px;
   }
   .hero-grid_item-copy h2{
-    font-size:30px;
+    font-size:25px;
     line-height:1;
     color:white;
   }
