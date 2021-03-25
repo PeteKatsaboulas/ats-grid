@@ -348,7 +348,7 @@ h1#logo {
 #content{
   position:relative;
 	width:100%;
-	padding:90px 10px 0 10px;
+	padding:90px 0 0 0;
 	overflow:hidden;
 }
 .content_main{
@@ -459,14 +459,14 @@ h1#logo {
 @media(max-width:600px){
   .content_modal-section{
     top:60px;
-    left:10px;
+    left:5px;
     transform:translateX(0) translateY(100px);
-    width:calc(100% - 20px);
+    width:calc(100% - 10px);
     height:calc(100vh - 60px);
   }
   .content_modal-scroll{
     height:calc(100vh - 60px);
-    padding-bottom:60px;
+    padding-bottom:90px;
   }
   .content_modal-section.show{
     z-index:4;
@@ -525,7 +525,7 @@ h1#logo {
 }
 @media(max-width:600px){
   .requirements{
-    padding:15px 5px 30px 5px !important;
+    padding:15px 10px 30px 10px !important;
   }
   .requirements h3{
     font-size:22px;
@@ -624,7 +624,7 @@ Hero Area
 
 @media(max-width:600px){
   .content-heading{
-    height:50px;
+    display:none;
   }
   .content-heading h1{
     bottom:12px;
@@ -693,27 +693,32 @@ Hero Area
 @media(max-width:600px){
 
   .hero-grid{
-    height:calc(55vh + 30px);
+    height:calc(60vh + 30px);
     overflow:scroll;
     -webkit-overflow-scrolling: touch;
     white-space: nowrap; 
     margin-bottom: -30px;
+    padding:5px;
   }
   .hero-grid ::-webkit-scrollbar {
     display:none;
   }
   .hero-grid .mobile-scroll{
-    width:1040px;
+    width:1060px;
   }
   .hero-grid_item{
     position:relative;
     width:260px;
-    height:55vh;
+    height:60vh;
     float:left;
     background:#151515;
-    border:4px solid white;
-    border-radius:8px;
+    margin-right:5px;
+    border:none;
+    border-radius:0;
     overflow:hidden;
+  }
+  .hero-grid_item:last-child{
+    margin-right:0;
   }
   .hero-grid_item-copy{
     z-index:5;
