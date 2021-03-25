@@ -624,11 +624,11 @@ Hero Area
 
 @media(max-width:600px){
   .content-heading{
-    height:60px;
+    height:50px;
   }
   .content-heading h1{
-    bottom:15px;
-    font-size:20px;
+    bottom:12px;
+    font-size:18px;
   }
   .content-heading h1 strong{
    font-family:"Lato";
@@ -747,6 +747,13 @@ Hero Area
   .hero-grid_item:hover .hero-grid_item-img{
     transform:scale(1.03);
     opacity:0.85;
+  }
+  .more-btn{
+    font-size:14px;
+  }
+  .more-btn i{
+   font-size:10px;
+   margin-left:5px;
   }
 
 }
