@@ -380,12 +380,12 @@ h1#logo {
 .content_modal-section{
   z-index:2;
   position:absolute;
-  top:130px;
+  top:120px;
   left:50%;
   transform:translateX(-50%) translateY(100px);
   width:100%;
   max-width:1600px;
-  height:calc(100vh - 130px);
+  height:calc(100vh - 120px);
   opacity:0;
   -webkit-transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
   -moz-transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
@@ -396,7 +396,7 @@ h1#logo {
   
 }
 .content_modal-scroll{
-  height:calc(100vh - 130px);
+  height:calc(100vh - 120px);
   overflow:scroll;
   padding-bottom:120px;
   background:white;
@@ -663,7 +663,6 @@ Hero Area
   float:left;
   background:#151515;
   border:5px solid white;
-  border-radius:12px;
   overflow:hidden;
 }
 .hero-grid_item-copy{
@@ -714,6 +713,7 @@ Hero Area
   .hero-grid .mobile-scroll{
     width:1060px;
   }
+
   .hero-grid_item{
     position:relative;
     width:260px;
