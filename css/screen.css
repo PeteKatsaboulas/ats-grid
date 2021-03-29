@@ -525,7 +525,7 @@ h1#logo {
 }
 @media(max-width:600px){
   .requirements{
-    padding:15px 10px 30px 10px !important;
+    padding:0px 10px 30px 10px !important;
   }
   .requirements h3{
     font-size:22px;
@@ -752,7 +752,7 @@ Hero Area
 @media(max-width:650px){
 
   .hero-grid{
-    min-height:calc(100vh - 130px);
+    min-height:calc(100vh - 60px);
     overflow:scroll;
     padding:5px;
   }
