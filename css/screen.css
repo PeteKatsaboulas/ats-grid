@@ -466,7 +466,7 @@ h1#logo {
   }
   .content_modal-scroll{
     height:calc(100vh - 60px);
-    padding-bottom:90px;
+    padding-bottom:60px;
   }
   .content_modal-section.show{
     z-index:4;
@@ -480,17 +480,16 @@ h1#logo {
   }
   .content_modal-section_hero{
     display:block;
-    text-align:center;
-    margin-bottom:20px;
+    margin-bottom:0px;
   }
   .content_modal-section_hero h3{
     font-size:35px;
     line-height:1;
-    padding:20px 0 0 0;
+    padding:20px 0 0 20px;
     width:auto;
   }
   .content_modal-section_wrap{
-    padding:20px;
+    padding:0 20px 20px 20px;
     color:#151515;
     max-width:960px;
     margin:0 auto;
@@ -503,8 +502,7 @@ h1#logo {
   }
   .content_modal-section .apply-btn{
     margin-left:auto;
-    width:100%;
-    text-align:center;
+    
   }
 }
 
