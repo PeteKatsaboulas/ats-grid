@@ -576,8 +576,8 @@ form.quick-app-form .btn_cancel:hover {
   }
   .apply-btn a {
     display: inline-block;
-    font-size: 15px;
-    line-height: 15px;
+    font-size: 14px;
+    line-height: 14px;
     padding: 10px 10px;
   }
   .header_phone{
@@ -585,6 +585,9 @@ form.quick-app-form .btn_cancel:hover {
   }
   .header_phone_mobile{
     display:inline-block;
+    top:33px;
+    right:130px;
+    font-size:16px;
   }
   .quick-app .close-overlay {
     top: 15px;

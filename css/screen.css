@@ -1065,10 +1065,10 @@ Responsive
 ================================ */
 @media all and (max-width:960px){
 	header{
-		padding:0 20px;
+		padding:0 10px;
 	}
 	.apply-btn {
-	  right: 20px;
+	  right: 10px;
 	}
 	.wrap{
 		padding:40px 20px;
@@ -1087,7 +1087,7 @@ Responsive
 		width:100%;
 		text-align:center;
 		float:none;
-		top:20px;
+		top:15px;
 		font-style:italic;
 	}
 	
