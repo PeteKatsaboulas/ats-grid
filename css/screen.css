@@ -491,7 +491,7 @@ Content Modal
   }
   .content_modal-scroll{
     height:calc(100vh - 60px);
-    padding-bottom:60px;
+    padding-bottom:90px;
   }
   .content_modal-section.show{
     z-index:4;
@@ -508,7 +508,7 @@ Content Modal
     margin-bottom:0px;
   }
   .content_modal-section_hero h3{
-    font-size:30px;
+    font-size:25px;
     line-height:1;
     padding:20px 0 0 20px;
     width:auto;
@@ -522,7 +522,7 @@ Content Modal
   .top-4-facts img{
     display:block;
     width:100%;
-    min-width:320px;
+    min-width:290px;
     max-width:320px;
     height:auto;
   }
@@ -733,6 +733,18 @@ Hero Area
   .hero-grid .starburst span{
     font-size:13px;
     line-height:13px;
+  }
+}
+@media(max-width:650px){
+  .hero-grid .starburst{
+    top:5px;
+    left:5px;
+    width:50px;
+    height:50px;
+  }
+  .hero-grid .starburst span{
+    font-size:11px;
+    line-height:11px;
   }
 }
 .hero-grid .mobile-scroll{
